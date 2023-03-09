@@ -2,7 +2,8 @@
 koerperGroesse = int(input("Geben Sie Ihre Größe in 'm' an: "))
 # Berechnung BMI [Body Mass Index]
 bmi = int(input("Geben Sie Ihr Gewicht in 'kg' an: ")) /(koerperGroesse*2)
-print("Ihr BMI beträgt:", bmi)
+bmi = bmi*100
+print("Ihr BMi beträgt:", bmi)
 # Deutung des BMI
 ergebnisAusgabe1 = "Laut WHO-Einteilung zum BMI haben Sie"
 if bmi<18.5:
